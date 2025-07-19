@@ -1,12 +1,15 @@
 import React from 'react';
-import { ChevronDownIcon, PhoneIcon, MailIcon, LocationMarkerIcon } from '@heroicons/react/outline';
 import { 
+  ChevronDownIcon, 
+  PhoneIcon, 
+  EnvelopeIcon as MailIcon,
+  MapPinIcon as LocationMarkerIcon,
   ShoppingCartIcon, 
   GlobeAltIcon, 
-  PencilAltIcon, 
-  SearchCircleIcon,
+  PencilIcon as PencilAltIcon, 
+  MagnifyingGlassCircleIcon as SearchCircleIcon,
   CheckIcon
-} from '@heroicons/react/solid';
+} from '@heroicons/react/24/outline';
 import './App.css';
 
 export default function App() {
